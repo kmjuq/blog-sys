@@ -39,7 +39,7 @@
                         <configuration>
                             <ghooks>
                                 <commit-msg>validate-commit-message/validate-commit-message.sh</commit-msg>
-                                <pre-commit>validate-code/validate-code.sh</pre-commit>
+<!--                                <pre-commit>validate-code/validate-code.sh</pre-commit>-->
                             </ghooks>
                         </configuration>
                         <phase>compile</phase>
