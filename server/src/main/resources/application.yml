@@ -1,0 +1,11 @@
+kmjuq:
+  base:
+    module:
+      redis: true
+    redis:
+      host: localhost
+      port: 6379
+
+logging:
+  level:
+    root: debug

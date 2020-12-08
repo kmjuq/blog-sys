@@ -25,28 +25,4 @@
         <module>server</module>
     </modules>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.itzhai.tools</groupId>
-                <artifactId>git-hook-maven-plugin</artifactId>
-                <version>1.0.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>git-hooks</goal>
-                        </goals>
-                        <configuration>
-                            <ghooks>
-                                <commit-msg>validate-commit-message/validate-commit-message.sh</commit-msg>
-<!--                                <pre-commit>validate-code/validate-code.sh</pre-commit>-->
-                            </ghooks>
-                        </configuration>
-                        <phase>compile</phase>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
